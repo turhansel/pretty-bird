@@ -1,4 +1,37 @@
 @import "../../App.scss";
 .widgets {
   flex: 0.3;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none; // hide the scrollbar
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    background-color: $twitter-background;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    .search-icon {
+      color: gray;
+    }
+    input {
+      border: none;
+      background-color: $twitter-background;
+    }
+  }
+  .container {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+    h2 {
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
 }

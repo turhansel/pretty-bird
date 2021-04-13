@@ -4,7 +4,7 @@ import Option from "./Option";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import Home from "@material-ui/icons/Home";
 import Notifications from "@material-ui/icons/NotificationsNone";
-import Explore from "@material-ui/icons/Explore";
+import Explore from "@material-ui/icons/ExploreOutlined";
 import Mail from "@material-ui/icons/MailOutlineOutlined";
 import Bookmark from "@material-ui/icons/BookmarkBorder";
 import ListAltIcon from "@material-ui/icons/ListAlt";
