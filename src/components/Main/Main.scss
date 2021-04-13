@@ -1,0 +1,63 @@
+@import "../../App.scss";
+.main {
+  flex: 0.4;
+  border-right: 1px solid $twitter-background;
+  min-width: fit-content;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none; // hide the scrollbar
+  }
+  .main-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid $twitter-background;
+    padding: 15px 20px;
+    h2 {
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+}
+
+//TweetContainer
+
+.tweet-box {
+  padding-bottom: 10px;
+  border-bottom: 8px solid $twitter-background;
+  padding-right: 10px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    .input-image {
+      border: none;
+      padding: 10px;
+    }
+    .input-box {
+      display: flex;
+      padding: 20px;
+      input {
+        flex: 1;
+        margin-left: 20px;
+        font-size: 20px;
+        border: none;
+      }
+    }
+    .btn {
+      background-color: $twitter-color !important;
+      border: none !important;
+      color: white !important;
+      font-weight: 900 !important;
+      text-transform: inherit !important;
+      width: 80px !important;
+      height: 40px !important;
+      border-radius: 30px !important;
+      margin-top: 20px !important;
+      margin-left: auto;
+    }
+  }
+}

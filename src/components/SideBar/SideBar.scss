@@ -1,14 +1,17 @@
-$twitter-color: #50b7f5;
-$twitter-background: #e6ecf0;
+@import "../../App.scss";
 
 .sidebar {
   flex: 0.3;
-  min-width: 250px;
+  // min-width: 250px;
   border-right: 1px solid $twitter-background;
   margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   .twitter-logo {
+    color: $twitter-color;
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
   .tweet-button {
     background-color: $twitter-color !important;
